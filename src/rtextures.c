@@ -4281,7 +4281,7 @@ RenderTexture2D LoadRenderTexture(int width, int height)
         target.texture.id = rlLoadTexture(NULL, width, height, PIXELFORMAT_UNCOMPRESSED_R8G8B8A8, 1);
         target.texture.width = width;
         target.texture.height = height;
-        target.texture.format = PIXELFORMAT_UNCOMPRESSED_R8G8B8A8;
+        target.texture.format = PIXELFORMAT_UNCOMPRESSED_R32G32B32A32;
         target.texture.mipmaps = 1;
 
         // Create depth renderbuffer/texture
